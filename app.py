@@ -24,7 +24,7 @@ client = genai.Client(
 def get_gemini_response(input_text, pdf_content, prompt):
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.6-flash",
         contents=[
             input_text,
             pdf_content,
@@ -39,7 +39,7 @@ def get_gemini_response(input_text, pdf_content, prompt):
 def get_gemini_response_keywords(input_text, pdf_content, prompt):
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.6-flash",
         contents=[
             input_text,
             pdf_content,
