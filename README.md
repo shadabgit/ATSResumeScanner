@@ -1,4 +1,4 @@
-# ATS Resume Scanner
+# ATS Resume Scanner 
 
 This is a Streamlit web application for an Applicant Tracking System (ATS) Resume Scanner. It allows users to upload a PDF resume and a job description, and then provides various analyses based on the uploaded documents.
 
